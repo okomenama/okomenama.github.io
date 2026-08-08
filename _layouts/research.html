@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<p><a href="{{ '/research/' | relative_url }}">&larr; Back to Research</a></p>
+
+<h1>{{ page.title }}</h1>
+<p class="card-meta">
+  {{ page.venue }}{% if page.location %}, {{ page.location }}{% endif %}
+  {% if page.date %}&middot; {{ page.date | date: "%b %Y" }}{% endif %}
+  {% if page.presentation_type %}&middot; {{ page.presentation_type }}{% endif %}
+</p>
+
+{% if page.tags %}
+<div>
+  {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+</div>
+{% endif %}
+
+{% if page.pdf %}
+<p>
+  <a class="btn" href="{{ page.pdf | relative_url }}" target="_blank" rel="noopener">Download slides (PDF)</a>
+  {% if page.paper_url %}<a class="btn-outline" href="{{ page.paper_url }}" target="_blank" rel="noopener">Paper / DOI</a>{% endif %}
+</p>
+<embed class="pdf-embed" src="{{ page.pdf | relative_url }}" type="application/pdf">
+{% elsif page.paper_url %}
+<p><a class="btn-outline" href="{{ page.paper_url }}" target="_blank" rel="noopener">Paper / DOI</a></p>
+{% endif %}
+
+<div class="research-body">
+{{ content }}
+</div>

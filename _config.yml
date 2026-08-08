@@ -1,0 +1,66 @@
+title: Amane Kubo
+short_title: A. Kubo
+tagline: Ph.D. Student in Civil Engineering, The University of Tokyo
+description: >-
+  Personal academic website of Amane Kubo — PhD student at the University of Tokyo
+  working on climate tipping predictability, Earth system model uncertainty
+  quantification, and data assimilation.
+url: "https://okomenama.github.io"
+baseurl: ""
+
+email: amanetf0323@g.ecc.u-tokyo.ac.jp
+affiliation: "The University of Tokyo"
+advisor: "Yohei Sawada"
+cv_pdf: /assets/pdfs/cv/AmaneKubo_CV.pdf
+# Flip to true once a phone-number-redacted CV PDF is placed at cv_pdf above.
+cv_pdf_available: false
+
+# --- Build settings ---
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+sass:
+  style: compressed
+permalink: pretty
+
+collections:
+  research:
+    output: true
+    permalink: /research/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "research"
+    values:
+      layout: research
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+nav:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research/
+  - title: Publications
+    url: /publications/
+  - title: CV
+    url: /cv/
+  - title: Contact
+    url: /contact/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - "*.docx"
+  - "37267065_AmaneKubo_cv_template_2026.5.pdf"
