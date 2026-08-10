@@ -19,9 +19,7 @@ title: Home
 
 <p>
   I am a Ph.D. student in Civil Engineering at the University of Tokyo, advised by
-  Yohei Sawada. I currently also work as a Visiting Student Researcher at the
-  California Institute of Technology, with the Climate Modeling Alliance group
-  under Prof. Tapio Schneider, Dr. Oliver Dunbar, and Dr. Claire Valva.
+  Yohei Sawada. 
 </p>
 
 ## Research Interests
