@@ -7,9 +7,7 @@ permalink: /research/
 # Research
 
 Representative research topics, with slide decks and short summaries. New
-entries are added incrementally as new work is presented — see
-[`README.md`](https://github.com/okomenama/okomenama.github.io#adding-a-research-entry)
-for how this page is updated.
+entries are added incrementally as new work is presented.
 
 {% assign items = site.research | sort: 'date' | reverse %}
 <div class="card-list">
