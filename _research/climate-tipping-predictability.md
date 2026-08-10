@@ -26,9 +26,3 @@ Published as Kubo, A., & Sawada, Y. (2025), *Geophysical Research Letters*,
 Paleoclimate Modelers' Workshop 2024 (Tokyo), JpGU Meeting 2024 (Makuhari,
 Oral), the 10th International Symposium on Data Assimilation (Kobe), and
 AGU Fall Meeting 2024 (Washington, D.C., Poster).
-
-<p class="note-box">
-Slide deck placeholder — drop the presentation PDF at
-<code>assets/pdfs/research/climate-tipping-predictability.pdf</code> to enable
-the download button and inline preview above.
-</p>

@@ -11,9 +11,12 @@ baseurl: ""
 email: amanetf0323@g.ecc.u-tokyo.ac.jp
 affiliation: "The University of Tokyo"
 advisor: "Yohei Sawada"
+# Fill these in to show the corresponding row on the Contact page.
+orcid: ""
+researchmap: ""
 cv_pdf: /assets/pdfs/cv/AmaneKubo_CV.pdf
 # Flip to true once a phone-number-redacted CV PDF is placed at cv_pdf above.
-cv_pdf_available: false
+cv_pdf_available: True
 
 # --- Build settings ---
 markdown: kramdown

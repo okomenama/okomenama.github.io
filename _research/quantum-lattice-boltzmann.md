@@ -24,7 +24,5 @@ performance against the classical formulation.
 Fujitsu Summer Research Internship, Sep. 1 – Oct. 3, 2025.
 
 <p class="note-box">
-No public slide deck for this internship project yet — add one at
-<code>assets/pdfs/research/quantum-lattice-boltzmann.pdf</code> and set the
-<code>pdf</code> front-matter field if one becomes available.
+No public slide. 
 </p>

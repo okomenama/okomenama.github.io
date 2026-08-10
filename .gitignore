@@ -7,11 +7,9 @@ vendor/
 Gemfile.lock
 .DS_Store
 ~$*
+*.docx
 
-# Source CV files (contain a personal phone number) — keep local only.
-# Add a phone-number-redacted copy at assets/pdfs/cv/AmaneKubo_CV.pdf
-# and un-ignore that specific file when ready to publish it.
+# Original CV export at repo root contains a personal phone number — keep
+# local only. The redacted copy for public download lives at
+# assets/pdfs/cv/AmaneKubo_CV.pdf and IS tracked.
 37267065_AmaneKubo_cv_template_2026.5.pdf
-37267065_AmaneKubo_cv_template_2026.5.docx
-assets/pdfs/cv/*
-!assets/pdfs/cv/.gitkeep
