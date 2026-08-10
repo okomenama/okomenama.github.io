@@ -34,7 +34,9 @@ The [Research](/research/) page lists items from the `_research/` collection
 Education, awards, funding, internships, activities, skills, publications,
 and presentations are all driven by `_data/cv.yml`. Edit that file — the
 [CV](/cv/) and [Publications](/publications/) pages regenerate automatically
-on the next build. No HTML editing needed.
+on the next build. No HTML editing needed. Add new items under `publications`
+or `presentations`; each list renders in the order it's written in the YAML
+(put newest first), it is not auto-sorted by date.
 
 To add/update the downloadable CV PDF (the button at the top of the CV page):
 

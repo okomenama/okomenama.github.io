@@ -22,7 +22,3 @@ the collision term was implemented and benchmarked for accuracy and
 performance against the classical formulation.
 
 Fujitsu Summer Research Internship, Sep. 1 – Oct. 3, 2025.
-
-<p class="note-box">
-No public slide. 
-</p>

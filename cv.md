@@ -8,19 +8,7 @@ permalink: /cv/
 
 {% if site.cv_pdf_available %}
 <p><a class="btn" href="{{ site.cv_pdf | relative_url }}" target="_blank" rel="noopener">Download full CV (PDF)</a></p>
-{% else %}
-<p class="note-box">
-No downloadable CV PDF yet. Add a copy (with any personal phone number
-removed) at <code>{{ site.cv_pdf }}</code> and set
-<code>cv_pdf_available: true</code> in <code>_config.yml</code> to show the
-download button.
-</p>
 {% endif %}
-
-<p class="note-box">
-This page is generated from <code>_data/cv.yml</code> — edit that file and the
-sections below update automatically.
-</p>
 
 ## Education
 

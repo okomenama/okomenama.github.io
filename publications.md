@@ -6,12 +6,6 @@ permalink: /publications/
 
 # Publications
 
-<p class="note-box">
-This page is generated from <code>_data/cv.yml</code> — add a new item under
-<code>publications</code> or <code>presentations</code> in that file and it
-appears here automatically, in the order listed (newest first).
-</p>
-
 ## Journal Articles
 
 <ul class="pub-list">
