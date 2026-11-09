@@ -66,4 +66,4 @@ exclude:
   - README.md
   - vendor
   - "*.docx"
-  - "37267065_AmaneKubo_cv_template_2026.5.pdf"
+  - "37267065_AmaneKubo_cv_template_*.pdf"

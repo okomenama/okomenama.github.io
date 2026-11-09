@@ -43,9 +43,15 @@ funding:
     date: "FY2025"
 
 internships:
+  - name: "Visiting Ph.D. Student, Department of Meteorology, University of Reading"
+    date: "Nov. 2, 2026 – Oct. 31, 2027"
+    description: "Under Dr. Eviatar Bach."
   - name: "Visiting Student Researcher, California Institute of Technology"
     date: "Aug. 7 – Sep. 26, 2026"
-    description: ""
+    description: "Under Prof. Tapio Schneider, Dr. Oliver Dunbar and Dr. Claire Valva."
+  - name: "One-Week Stay, University of Reading and University of Leicester"
+    date: "Feb. 2026"
+    description: "Visits to Dr. Eviatar Bach (Reading) and Dr. Manuel Santos Gutiérrez (Leicester)."
   - name: "Fujitsu Summer Research Internship"
     date: "Sep. 1 – Oct. 3, 2025"
     description: "Research on the quantum lattice Boltzmann method (QLBM), a quantum-computing version of the Lattice Boltzmann method. Implemented and benchmarked a 2D linearly-approximated nonlinear collision term."
