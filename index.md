@@ -39,6 +39,21 @@ progress.
   <li>Quantum Computing</li>
 </ul>
 
+{% assign today = site.time | date: "%Y-%m-%d" %}
+{% assign upcoming = site.data.cv.presentations | where_exp: "p", "p.date_iso >= today" | sort: "date_iso" %}
+{% if upcoming.size > 0 %}
+## Upcoming Talks
+
+<ul class="entry-list">
+{% for p in upcoming %}
+  <li>
+    <span class="entry-main"><strong>{{ p.title }}</strong><br>{% if p.url and p.url != "" %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.venue }}</a>{% else %}{{ p.venue }}{% endif %}{% if p.location %}, {{ p.location }}{% endif %}{% if p.type and p.type != "" %} &middot; {{ p.type }}{% endif %}</span>
+    <span class="entry-date">{{ p.date_iso | date: "%b %-d, %Y" }}</span>
+  </li>
+{% endfor %}
+</ul>
+{% endif %}
+
 {% assign recent_research = site.research | sort: 'date' | reverse %}
 {% if recent_research.size > 0 %}
 ## Recent Research

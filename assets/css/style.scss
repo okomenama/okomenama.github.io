@@ -265,3 +265,15 @@ main {
   .interests-list { columns: 1; }
   .profile { flex-direction: column; align-items: flex-start; }
 }
+
+.pub-upcoming {
+  display: inline-block;
+  margin-left: 0.25em;
+  padding: 0 0.45em;
+  font-size: 0.75em;
+  font-weight: 600;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  opacity: 0.75;
+  vertical-align: middle;
+}
